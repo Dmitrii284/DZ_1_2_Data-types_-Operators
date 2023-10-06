@@ -12,57 +12,57 @@
 //{
 //    internal partial class Program
 //    {
-        //public enum EnumSeason
-        //{
-        //    Winter,
-        //    Spring,
-        //    Summer,
-        //    Autumn
-        //}
+//        public enum EnumSeason
+//        {
+//            Winter,
+//            Spring,
+//            Summer,
+//            Autumn
+//        }
 
-        //public static int Main(string[] args)
-        //{
-        //    static string GetSeason(DateTime date)
-        //    {
-        //        string season = "";
-        //        int month = DateTime.Now.Month;
-        //        public enum Season
-        //{ Winter = 1,
-        //    Spring = 3,
-        //            ,
-        //    1, 2; }
-        //Winter = 12, 1, 2;
-                  
-                // switch(month)
-                //{
-                //    case 12:
-                //    case 1: 
-                //    case 2:  season = "Winter"; break;
-                //    case 3:
-                //    case 4:
-                //    case 5: season = "Spring"; break;
-                //    case 6:
-                //    case 7:
-                //    case 8: season = "Summer"; break;
-                //    case 9:
-                //    case 10:
-                //    case 11: season = "Autumn"; break;
-                //    default: throw new ArgumentException("Invalid date");                
-                
-//            }
+//        public static int Main(string[] args)
+//        {
+//            static string GetSeason(DateTime date)
+//            {
+//                string season = "";
+//                int month = DateTime.Now.Month;
+//                public enum Season
+//                {
+//                    Winter,
+//                    Spring,
+//                    Summer,
+//                    Autumn
+//                };
 
-//             Console.WriteLine("Task 5\nFind out what time of year and day of the week!!\nEnter the datr with format 20.10.2023 -> ");
+//                 switch(month)
+//                {
+//                    case 12:
+//                    case 1: 
+//                    case 2:  season = "Winter"; break;
+//                    case 3:
+//                    case 4:
+//                    case 5: season = "Spring"; break;
+//                    case 6:
+//                    case 7:
+//                    case 8: season = "Summer"; break;
+//                    case 9:
+//                    case 10:
+//                    case 11: season = "Autumn"; break;
+//                    default: throw new ArgumentException("Invalid date");
+
+//    }
+//    Console.WriteLine("Task 5\nFind out what time of year and day of the week!!\nEnter the datr with format 20.10.2023 -> ");
 //             string? input = Console.ReadLine();
 
 //            if(DateTime.TryParseExact(input,"dd.MM.yyyy", CultureInfo.InvariantCulture,DateTimeStyles.None, out DateTime date))
 //            {
 //                string season = date.ToString("MM", CultureInfo.InvariantCulture);
-//                string dayOfWeek = date.ToString("dddd", CultureInfo.InvariantCulture);
-//                Console.WriteLine($"Resault:{season}, {dayOfWeek}");
+//    string dayOfWeek = date.ToString("dddd", CultureInfo.InvariantCulture);
+//    Console.WriteLine($"Resault:{season}, {dayOfWeek}");
 //            }
-//            Console.WriteLine("Mistake!Invalid date format!");
+//Console.WriteLine("Mistake!Invalid date format!");
 
-//            return 0;
+//return 0;
 //        }
 //    }
 //}
@@ -81,7 +81,7 @@ namespace SeasonAndDayOfWeek
             Summer,
             Autumn
         };
-        
+
 
         static void Main(string[] args)
         {
